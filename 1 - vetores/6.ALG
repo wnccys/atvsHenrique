@@ -6,7 +6,7 @@ var
     i :inteiro
 inicio
     i <- 0
-    escrevl("Bem-vindo, esse programa permite armazenar nomes de pessoas e atribuir salarios á elas, calculado um certo reajuste.")
+    escrevl("Bem-vindo, esse programa permite armazenar nomes de pessoas e atribuir salarios á elas, dado um certo reajuste.")
     repita
         escreval("Digite o nome para guardarmos: ")
         leia(nomes[i])
