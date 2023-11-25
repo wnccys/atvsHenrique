@@ -6,12 +6,14 @@ var
     i :inteiro
 inicio
     i <- 0
+    escreval("Esse soma dois vetores baseados em valores inseridos por você!")
+    escreval("Selecione")
     repita
         escreval((i+1)+" número do primeiro vetor:")
         leia(vet1)
         escreval((i+1)+" número do segundo vetor:")
         leia(vet2)
-        soma[i] <- (vet1[i] + vet2[i])
+        soma[i] <- (int(vet1[i]) + int(vet2[i]))
         escreval(soma[i])
         i <- i+1
     ate(i>4)

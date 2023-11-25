@@ -7,6 +7,7 @@ var
     i :inteiro
     j :inteiro
 inicio
+    escreval("Bem-vindo, esse programa ordena nomes em ordem alfabética!")
     para i de 0 ate 4 passo 1 faca
         escreval("Entre com o ",(i+1)," nome: ")
         leia(nomes[i])
