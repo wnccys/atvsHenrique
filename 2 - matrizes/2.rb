@@ -14,18 +14,15 @@ while (w <= 0) || (w > 10)
     puts "Enter a valid number!"
     w = gets.to_i
 end
-# wArr=[]
-# w.times { |n| wArr[n] = w}
-# puts wArr
 
 for i in 0..h-1
     sums[i] = 0
     mtx[i] = Array.new(w)
-    puts "The #{w} elements of the line #{i}: "
+    puts "The #{w} elements of the line #{i+1}: "
     w.times { |n| 
     mtx[i][n] = gets.to_i 
     sums[i] += mtx[i][n]
     }
 end
 
-puts sums
+sums.length.times { |i| puts "#{i+1} Sum: #{sums[i]}" }
