@@ -1,4 +1,5 @@
 puts "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+puts "This program calculates diagonal of a given square matrix!"
 puts "Enter the square matrix length: [1-10]"
 mLength = gets.to_i-1
 while (mLength <= 0) || (mLength > 10)
