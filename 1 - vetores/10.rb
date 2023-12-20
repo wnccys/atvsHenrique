@@ -88,7 +88,7 @@ while (true)
                 end
             end
         when 3
-            puts "Saindo..."
+            puts "Shutting Down..."
             exit
         end
     end

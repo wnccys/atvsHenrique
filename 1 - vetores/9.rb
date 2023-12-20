@@ -13,7 +13,7 @@ end
 puts "\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 continue = ""
 
-while (continue != "n") || (continue != "N")
+while (continue != "n") && (continue != "N")
     arr = []
     puts "This program re-order descreasing the values from a array!"
     puts "How many number is it going to have?"
@@ -28,5 +28,5 @@ while (continue != "n") || (continue != "N")
     puts "The sorted array is: #{arr}!"
     puts "\n\n\n\n\n\n"
     puts "Do you want to continue? [S/N]"
-    continue = gets
+    continue = gets.chop
 end
